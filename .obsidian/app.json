@@ -1,0 +1,13 @@
+{
+  "attachmentFolderPath": "_Divers_/img",
+  "spellcheck": true,
+  "spellcheckLanguages": null,
+  "promptDelete": false,
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "2",
+    "downscalePercent": 100
+  }
+}
