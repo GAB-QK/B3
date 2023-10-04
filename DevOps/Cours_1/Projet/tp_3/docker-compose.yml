@@ -1,0 +1,31 @@
+version: '3'
+
+networks:
+  gitlab_network:
+    driver: bridge
+
+services:
+  gitlab:
+    image: gitlab/gitlab-ce
+    restart: always
+    hostname: gitlab.example.com
+    ports:
+      - "80:80"
+      - "443:443"
+      - "22:22"
+    networks:
+      - gitlab_network
+
+  gitlab-runner:
+    image: gitlab/gitlab-runner
+    restart: always
+    networks:
+      - gitlab_network
+
+  registry:
+    image: registry:2
+    restart: always
+    ports:
+      - "5000:5000"
+    networks:
+      - gitlab_network
