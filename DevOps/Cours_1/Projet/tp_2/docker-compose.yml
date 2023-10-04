@@ -1,0 +1,32 @@
+version: '3'
+services:
+
+  # Service MySQL
+  mysql:
+    image: mysql:8.0
+    environment:
+      # Définition des variables d'environnement
+      MYSQL_ROOT_PASSWORD: VotreMotDePasseRoot
+      MYSQL_DATABASE: wordpress_db
+      MYSQL_USER: wordpress_user
+      MYSQL_PASSWORD: MotDePasseUtilisateurWordPress
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+  # Service WordPress
+  wordpress:
+    # Création du service
+    image: wordpress:latest
+    environment:
+      WORDPRESS_DB_HOST: mysql
+      WORDPRESS_DB_NAME: wordpress_db
+      WORDPRESS_DB_USER: wordpress_user
+      WORDPRESS_DB_PASSWORD: MotDePasseUtilisateurWordPress
+    ports:
+      # Ouverture du port 80
+      - "80:80"
+    depends_on:
+      - mysql
+volumes:
+  # Création du volume
+  mysql_data:

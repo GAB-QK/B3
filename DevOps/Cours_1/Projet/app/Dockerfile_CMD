@@ -1,0 +1,8 @@
+FROM ubuntu
+RUN apt-get update && apt-get install -y apt-transport-https
+RUN apt-get -y install mtr
+WORKDIR /app 
+COPY . ./ 
+ 
+EXPOSE 3000 
+CMD ["mtr", "8.8.8.8"] 

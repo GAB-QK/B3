@@ -13,9 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevOps/Cours_1.md",
+                "file": "DevOps/Cours_1/Compte rendu.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "272e6e88a57339e5",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "DevOps/Cours_1/TP DOCKER (2).pdf"
               }
             }
           }
@@ -93,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DevOps/Cours_1.md",
+                "file": "DevOps/Cours_1/Compte rendu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevOps/Cours_1.md",
+                "file": "DevOps/Cours_1/Compte rendu.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevOps/Cours_1.md"
+                "file": "DevOps/Cours_1/Compte rendu.md"
               }
             }
           },
@@ -175,12 +185,29 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "21727f9dc37c5487",
+  "active": "9ef1d97377f84474",
   "lastOpenFiles": [
-    "img",
+    "Pasted image 20231004142012.png",
+    "Pasted image 20231004141950.png",
+    "Pasted image 20231004141851.png",
+    "DevOps/Cours_1/TP DOCKER (2).pdf",
+    "DevOps/Cours_1/Compte rendu.md",
+    "DevOps/Cours_1/Cours_1.md",
+    "Pasted image 20231003150352.png",
+    "DevOps/Cours_1/Projet/tp_2/docker-compose.yml",
+    "DevOps/Cours_1/Projet/tp_2",
+    "DevOps/Cours_1/Projet/app/Dockerfile_Entrypoint~",
+    "DevOps/Cours_1/Projet/app/Dockerfile_CMD~",
+    "DevOps/Cours_1/Untitled",
+    "DevOps/Cours_1/Projet/app/Dockerfile_Entrypoint",
+    "DevOps/Cours_1/Projet/app/Dockerfile_CMD",
+    "DevOps/Cours_1/Projet/app/Dockerfile",
+    "DevOps/Cours_1/Projet/package-lock.json",
+    "DevOps/Cours_1/Projet/app/README.md",
+    "DevOps/Cours_1/Projet/app/CHANGELOG.md",
+    "DevOps/Cours_1/app/README.md",
+    "DevOps/Cours_1/app/CHANGELOG.md",
     "coucou.md",
-    "DevOps/Cours_1.md",
-    "DevOps",
     "Templates/Divers/Note.md",
     "Templates/MindMap/MindMap_1.md",
     "Templates/Divers/interesting_Web_site.md",
@@ -190,9 +217,6 @@
     "Templates/Divers/People.md",
     "Templates/Divers/Lecture.md",
     "Templates/Divers/Book.md",
-    "Templates/MindMap",
-    "Templates/Divers",
-    "Templates",
     "_Divers_/Templates/Divers/Book.md",
     "note.md",
     "Command SOS/Linux/Reverse Shell Cheatsheet.md",
@@ -202,26 +226,12 @@
     "_Divers_/Templates/Divers/interesting_Web_site.md",
     "Cours/python/x_in_y.md",
     "_Divers_/Templates/Divers/Note.md",
-    "Command SOS/Linux/NMAP.md",
-    "Cours/Network/Network Traffic Analysis_1.md",
-    "Command SOS/WEB/XSS Cross-Site Scripting.md",
-    "Command SOS/Linux/Création d'un VENV.md",
-    "Command SOS/Linux/BASH/2-BASH an Scripting.md",
     "_Divers_/img/Pasted image 20230620122520.png",
     "_Divers_/img/Pasted image 20230620122303.png",
     "_Divers_/img/Pasted image 20230620121844.png",
     "_Divers_/img/Pasted image 20230620121725.png",
     "_Divers_/img/Pasted image 20230619163815.png",
     "_Divers_/img/Pasted image 20230619162625.png",
-    "_Divers_/img/Pasted image 20230619162234.png",
-    "_Divers_/img/Pasted image 20230619161940.png",
-    "_Divers_/img/Pasted image 20230619160708.png",
-    "_Divers_/img/Pasted image 20230619160421.png",
-    "Cours/python",
-    "Cours/Network",
-    "Cours",
-    "Command SOS/OSINT",
-    "StormShield",
-    "Command SOS/Pentesting Process"
+    "_Divers_/img/Pasted image 20230619162234.png"
   ]
 }
