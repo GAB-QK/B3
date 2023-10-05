@@ -8,17 +8,22 @@ services:
   gitlab:
     image: gitlab/gitlab-ce
     restart: always
-    hostname: gitlab.example.com
     ports:
       - "80:80"
       - "443:443"
       - "22:22"
+    volumes:
+      - /srv/gitlab/config
+      - /srv/gitlab/logs
+      - /srv/gitlab/data
     networks:
       - gitlab_network
 
   gitlab-runner:
     image: gitlab/gitlab-runner
     restart: always
+    volumes:
+      - /srv/gitlab-runner/config
     networks:
       - gitlab_network
 
