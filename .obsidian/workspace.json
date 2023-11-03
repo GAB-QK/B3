@@ -8,22 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9ef1d97377f84474",
+            "id": "43f268487b38c1ea",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "DevOps/Cours_1/DevOps _ Conteneurisation et Intégration continue.pdf"
+                "file": "Scrum/Réunion.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
           {
-            "id": "272e6e88a57339e5",
+            "id": "6cd4a567850880de",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "excalidraw",
               "state": {
-                "file": "DevOps/Cours_1/TP DOCKER (2).pdf"
+                "file": "Excalidraw/Drawing 2023-11-03 09.34.10.excalidraw.md"
               }
             }
           }
@@ -85,8 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5,
-    "collapsed": true
+    "width": 297.5
   },
   "right": {
     "id": "fc2719227cfec426",
@@ -102,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DevOps/Cours_1/DevOps _ Conteneurisation et Intégration continue.pdf",
+                "file": "Scrum/Réunion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevOps/Cours_1/DevOps _ Conteneurisation et Intégration continue.pdf",
+                "file": "Scrum/Réunion.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevOps/Cours_1/DevOps _ Conteneurisation et Intégration continue.pdf"
+                "file": "Scrum/Réunion.md"
               }
             }
           },
@@ -174,6 +175,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "daily-notes:Open today's daily note": false,
@@ -184,12 +186,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9ef1d97377f84474",
+  "active": "43f268487b38c1ea",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2023-11-03 09.34.10.excalidraw.md",
+    "Scrum/Réunion.md",
     "DevOps/Cours_1/TP DOCKER (2).pdf",
+    "DevOps/Cours_1/Compte rendu.md",
+    "Excalidraw/Drawing 2023-11-03 09.34.10.excalidraw.png",
+    "Excalidraw",
+    "Scrum",
     "DevOps/Cours_1/DevOps _ Conteneurisation et Intégration continue.pdf",
     "DevOps/Cours_1/Cours_1.md",
-    "DevOps/Cours_1/Compte rendu.md",
     "DevOps/Cours_1/Projet/tp_3/docker-compose.yml",
     "DevOps/Cours_1/Projet/tp_3",
     "img/Pasted image 20231004142012.png",
@@ -200,9 +207,6 @@
     "DevOps/Cours_1/Projet/tp_2",
     "DevOps/Cours_1/Projet/app/Dockerfile_Entrypoint~",
     "DevOps/Cours_1/Projet/app/Dockerfile_CMD~",
-    "DevOps/Cours_1/Untitled",
-    "DevOps/Cours_1/Projet/app/Dockerfile_Entrypoint",
-    "DevOps/Cours_1/Projet/app/Dockerfile_CMD",
     "DevOps/Cours_1/Projet/app/README.md",
     "DevOps/Cours_1/Projet/app/CHANGELOG.md",
     "DevOps/Cours_1/app/README.md",
@@ -224,13 +228,10 @@
     "Cours/Network/Network basics_9.md",
     "Command SOS/Linux/wifi_crack.md",
     "_Divers_/Templates/Divers/interesting_Web_site.md",
-    "Cours/python/x_in_y.md",
-    "_Divers_/Templates/Divers/Note.md",
     "_Divers_/img/Pasted image 20230620122520.png",
     "_Divers_/img/Pasted image 20230620122303.png",
     "_Divers_/img/Pasted image 20230620121844.png",
     "_Divers_/img/Pasted image 20230620121725.png",
-    "_Divers_/img/Pasted image 20230619163815.png",
-    "_Divers_/img/Pasted image 20230619162625.png"
+    "_Divers_/img/Pasted image 20230619163815.png"
   ]
 }
